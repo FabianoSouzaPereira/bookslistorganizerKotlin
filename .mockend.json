@@ -1,13 +1,23 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Post":{
+    "code":"int",
+    "title":"string",
+    "author":"string",
+    "mIlustrator":"string",
+    "Cover":"string",
+    "Edition":"string",
+    "Print":"string",
+    "Fineshing":"string",
+    "Date":"string",
+    "Legaldeposit":"string",
+    "Isbn":"string",
+    "Email":"string",
+    "createdAt": "date"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "User":
+  {
+    "name":"string",
+    "email":"string",
+    "password":"string"
   }
 }
